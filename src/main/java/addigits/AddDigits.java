@@ -4,7 +4,7 @@ public class AddDigits {
 
     public int addDigits(String input) {
         int result = 0;
-        String num = null;
+        String num = "";
         if (input == null || input.length() == 0) {
             result = -1;
         } else {
